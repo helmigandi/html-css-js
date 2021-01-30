@@ -1,2 +1,2 @@
-# html-css
-Practice HTML and CSS
+# html-css-JS
+Practice HTML, CSS and Javascript
