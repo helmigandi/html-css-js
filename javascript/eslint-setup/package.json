@@ -1,0 +1,18 @@
+{
+  "name": "eslint-setup",
+  "version": "1.0.0",
+  "description": "## Installation and Setup Untuk memasang ESLint kita dapat menggunakan *yarn* atau *npm*: ```bash npm install eslint --save-dev # or yarn add eslint --dev ``` Untuk menggunakannya kita harus mengeksekusi `npm-init` atau `yarn-init` terlebih dahulu.   Lalu jalankan konfigurasi `eslint` berikut: ```bash npx eslint --init # or yarn run eslint --init ``` Jalankan kode dibawah untuk menjalankan ESLint pada file atau direktori kita: ```bash npx eslint yourfile.js / . # or yarn run eslint yourfile.js / . ``` kita dapat memasang ESLint secara global `npm install eslint --global` tetapi sangat tidak disarankan.   Kita juga dapat menginstall ESLint extension pada *VSCode*.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
