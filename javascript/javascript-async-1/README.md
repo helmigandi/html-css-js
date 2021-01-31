@@ -118,3 +118,6 @@
 - RxJS(Reactive Extensions Library for JavaScriipt)
 - Web Socket
 - Cara kerja Non-Blocking (low level)
+
+## Sumber
+- Khannedy, Eko Kurniawan. 2019. [Belajar JavaScript Async](https://www.youtube.com/playlist?list=PL-CtdCApEFH-I4CD6km3BcXqrhWAkY4et). (diakses tanggal 31 Januari 2021).
