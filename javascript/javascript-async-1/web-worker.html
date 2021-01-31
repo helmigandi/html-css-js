@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Worker</title>
+    <script>
+      const worker = new Worker("web-worker.js");
+      worker.addEventListener("message", function (event) {
+        console.log(`Recive message from web worker: ${event.data}`);
+      });
+
+      function buttonClick() {
+        console.log("Start Log");
+        worker.postMessage(20000);
+        console.log("Finish Log");
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="buttonClick()">Search Products</button>
+  </body>
+</html>
