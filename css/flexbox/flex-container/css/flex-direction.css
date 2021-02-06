@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+  list-style: none;
+}
+
+/* flex-direction: row; (default) kiri ke kanan */
+.row            { 
+  flex-direction: row;
+}
+
+/* flex-direction: row-reverse; kanan ke kiri */
+.row-reverse    { 
+  flex-direction: row-reverse;
+}  
+.row-reverse li {
+  background: gold;
+}
+
+/* flex-direction: column; atas ke bawah */
+.column { 
+  flex-direction: column; 
+  float: left;
+}
+.column li {
+  background: deepskyblue;
+}
+
+/* flex-direction: column-reverse; bawah ke atas */
+.column-reverse { 
+  flex-direction: column-reverse; 
+  float: right;
+}
+.column-reverse li {
+  background: lightgreen;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
